@@ -1,133 +1,166 @@
 body {
-    background-color: #eeeeee;
-    font-size: 2em;
-    font-family: "Calibri", sans-serif;
-  }
+  background-color: #eeeeee;
+  font-size: 2em;
+  font-family: "Calibri", sans-serif;
+}
   
-  header {
-    margin-left: auto;
-    margin-right: auto;
+header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-shadow: 1px 1px 2px black;
+}
+
+li {
+  margin-bottom: 1em;
+  text-shadow: 1px 1px 2px black;
+}
+
+img {
+  max-width: 500px;
+}
+
+.kawatts {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  width: 60%;
+  animation: fadeIn 1s;
+  border-style: groove;
+  border-radius: .2em;
+  background: linear-gradient(45deg, #999999 0%, #cccccc 30%, #ffffff 100%);
+}
+
+.subLogos {
+  display: none;
+  justify-content: space-between;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  animation: fadeIn 1s;
+  border-style: groove;
+  border-radius: .2em;
+  padding: 1em;
+  background: linear-gradient(45deg, #999999 0%, #cccccc 30%, #ffffff 100%);
+}
+
+.chart {
+  display: none;
+  padding: 0em 1em;
+  margin-top: 1em;
+  animation: fadeIn 1s;
+  background: linear-gradient(45deg, #999999 0%, #CCCCCC 60%, #ffffff 100%);
+  border-style: groove;
+  border-color: #dddddd;
+  border-radius: .2em;
+}
+
+.subLogos img {
+  margin-top: auto;
+  width: 40%;
+}
+
+.bullet {
+  font-size: 1em;
+  background: radial-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0));
+  width: auto;
+  border-style: groove;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: white;
+  padding: 0 .5em;
+}
+
+.gasContainer {
+  display: flex;
+  background: #ffff00;
+  width: 6.75em;
+  height: 2em;
+  margin-top: -.75em;
+  border: solid 1px black;
+}
+
+.gasTape {
+  transform: rotate(270deg);
+  font-size: 1em;
+  margin-left: -.25em;
+  text-shadow: none;
+}
+
+.bluePt {
+  color: #000ECB;
+}
+
+.redPt {
+  color: #ff0000;
+}
+
+.blackPt {
+  color: #000000;
+}
+
+.brownPt {
+  color: #773e18;
+}
+
+.greenPt {
+  color: #00b050;
+}
+
+.yellowPt {
+  color: #FFFB00;
+}
+
+#hepCala {
+  margin: auto 0;
+}
+
+#hepDandara {
+  width: 30%;
+}
+
+#dandara {
+  width: 50%;
+}
+
+#hepDrew {
+  width: 30%;
+}
+
+#drewsmith {
+  width: 50%
+}
+
+#hepForeman {
+  width: 30%;
+  margin: auto 0;
+}
+
+#foreman {
+  width: 50%;
+}
+
+#hepHurst {
+  margin: auto 0;
+}
+
+#hepRedrow {
+  width: 30%;
+}
+
+#redrow {
+  width: 50%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  h1 {
-    font-size: 1.5em;
-    text-shadow: 1px 1px 2px black;
+  100% {
+    opacity: 1;
   }
-  
-  li {
-    margin-bottom: 1em;
-    text-shadow: 1px 1px 2px black;
-  }
-  
-  img {
-    max-width: 500px;
-  }
-  
-  .kawatts {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1em;
-    width: 60%;
-    animation: fadeIn 1s;
-    border-style: groove;
-    border-radius: .2em;
-    background: linear-gradient(45deg, #999999 0%, #cccccc 30%, #ffffff 100%);
-  }
-  
-  .subLogos {
-    display: none;
-    justify-content: space-between;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    animation: fadeIn 1s;
-    border-style: groove;
-    border-radius: .2em;
-    padding: 1em;
-    background: linear-gradient(45deg, #999999 0%, #cccccc 30%, #ffffff 100%);
-  }
-  
-  .chart {
-    display: none;
-    padding: 0em 1em;
-    margin-top: 1em;
-    animation: fadeIn 1s;
-    background: linear-gradient(45deg, #999999 0%, #CCCCCC 60%, #ffffff 100%);
-    border-style: groove;
-    border-color: #dddddd;
-    border-radius: .2em;
-  }
-  
-  .subLogos img {
-    margin-top: auto;
-  }
-  
-  .bullet {
-    font-size: 1em;
-    background: radial-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0));
-    width: auto;
-    border-style: groove;
-    border-radius: 3px;
-    border-width: 1px;
-    border-color: white;
-    padding: 0 .5em;
-  }
-  
-  .gasContainer {
-    display: flex;
-    background: #ffff00;
-    width: 6.75em;
-    height: 2em;
-    margin-top: -.75em;
-    border: solid 1px black;
-  }
-  
-  .gasTape {
-    transform: rotate(270deg);
-    font-size: 1em;
-    margin-left: -.25em;
-    text-shadow: none;
-  }
-  
-  .bluePt {
-    color: #000ECB;
-  }
-  
-  .redPt {
-    color: #ff0000;
-  }
-  
-  .blackPt {
-    color: #000000;
-  }
-  
-  .brownPt {
-    color: #773e18;
-  }
-  
-  .greenPt {
-    color: #00b050;
-  }
-  
-  .yellowPt {
-    color: #FFFB00;
-  }
-  
-  .polypipe {
-    width: 40%;
-    height: 100%;
-  }
-  
-  .barratt {
-    width: 40%;
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+}
