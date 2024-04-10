@@ -36,7 +36,7 @@ img {
 }
 
 .subLogos {
-  display: none;
+  display: flex;
   justify-content: space-between;
   margin-left: 1em;
   margin-right: 1em;
@@ -49,7 +49,7 @@ img {
 }
 
 .chart {
-  display: none;
+  display: block;
   padding: 0em 1em;
   margin-top: 1em;
   animation: fadeIn 1s;
