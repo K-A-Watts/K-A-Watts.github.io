@@ -1,0 +1,28 @@
+body {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+.qrContainer {
+  border-style: solid;
+  border-radius: 1em;
+  border-width: .5em;
+  padding: 1em;
+  width: 32em;
+  margin-bottom: 1em;
+  margin-right:  1em;
+  text-align: center;
+}
+
+.qrContainer a {
+  font-size: 2em;
+  padding: .2em;
+  border-style: hidden;
+  border-radius: .2em;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: darkgrey;
+
+}
