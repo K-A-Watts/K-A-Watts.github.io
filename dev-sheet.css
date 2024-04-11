@@ -35,6 +35,10 @@ img {
   background: linear-gradient(45deg, #999999 0%, #cccccc 30%, #ffffff 100%);
 }
 
+.kawatts img {
+  width: 100%;
+}
+
 .subLogos {
   display: flex;
   justify-content: space-between;
