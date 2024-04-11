@@ -79,7 +79,7 @@ img {
   padding: 0 .5em;
 }
 
-.gasContainer {
+/* .gasContainer {
   display: flex;
   background: #ffff00;
   width: 6.75em;
@@ -93,6 +93,10 @@ img {
   font-size: 1em;
   margin-left: -.25em;
   text-shadow: none;
+} */
+
+.gasTape {
+  max-width: 100%;
 }
 
 .bluePt {
