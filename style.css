@@ -14,7 +14,6 @@ a {
   padding: .2em;
   border-style: hidden;
   border-radius: 1em;
-  transition: 0.3s;
   margin-bottom: 1em;
   margin-right:  1em;
   color: #000000;
@@ -27,6 +26,10 @@ a {
   padding: 1em;
   width: 32em;
   text-align: center;
+}
+
+div {
+  transition: .3s;
 }
 
 div:hover {
